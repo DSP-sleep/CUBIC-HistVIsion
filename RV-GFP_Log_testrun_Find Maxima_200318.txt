@@ -1,0 +1,51 @@
+=== 2020-3-18 14:58:12 Macro Started ===
+
+*** Image info ***
+File name: RV-GFP_z191-370_crop.tif
+X = 250 pixels
+Y = 250 pixels
+Start Z of stack: 00000
+No. of slices: 180
+
+*** Pre-processing ***
+Preparing blurred stack...
+Apply Gaussian blur without mask
+Finish making blurred image (sigma = 1) at 14:58:21
+
+Dividing...
+Finish dividing at 14:58:21
+
+Running Subtract background (rolling ball)...
+Finish Subtract Background (rolling ball) at 14:58:21
+Rolling = 1
+
+Resizing (3x expansion)...
+Finish Resize (3x) at 14:58:23
+
+Running Gaussian Blur filter...
+Finish Gaussian Blur (Sigma = 2) at 14:58:24
+
+Running FeatureJ Laplacian filter...
+Finish FeatureJ Laplacian filter (Sigma = 2) at 14:58:44
+
+Mimium filter...
+Finish Minimum filter (radius = 1.5) at 14:58:45
+
+Set lower thresold (Apply LUT)...
+Lower threshold: 32000
+Finish thresholding at 14:58:50
+
+Find Maxima & Maximum filter...
+Finish Find Maxima and Maximum filter at 14:59:04
+Noise parameter of Find Maxima = 450
+Radius of Maximum filter = 0.5
+saving Maxima stack...
+Finish saving Maxima stack at 14:59:04
+
+Each Maxima image is saving...
+Finish saving Maxima slices at 14:59:04
+
+...Finish all pre-processing!!
+
+=== 2020-3-18 14:59:04 Macro Finished ===
+
